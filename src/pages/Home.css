@@ -1,0 +1,51 @@
+.home-dashboard {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.home-grid {
+  display: grid;
+  grid-template-columns: 1fr 380px;
+  gap: 28px;
+  align-items: start;
+}
+
+.home-grid__primary {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.home-grid__sidebar {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+/* Tablet Layout */
+@media (max-width: 1024px) {
+  .home-grid {
+    grid-template-columns: 1fr;
+    gap: 24px;
+  }
+
+  .home-grid__sidebar {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+  }
+
+  /* Make learning progress span full width on tablet */
+  .home-grid__sidebar .learning-progress-card {
+    grid-column: 1 / -1;
+  }
+}
+
+/* Mobile Layout */
+@media (max-width: 680px) {
+  .home-grid__sidebar {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+}
