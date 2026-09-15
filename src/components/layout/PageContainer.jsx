@@ -1,9 +1,0 @@
-import './PageContainer.css';
-
-export default function PageContainer({ children, className = '' }) {
-  return (
-    <main className={`page-container ${className}`}>
-      {children}
-    </main>
-  );
-}
