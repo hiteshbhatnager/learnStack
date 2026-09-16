@@ -14,9 +14,9 @@
     --color-accent-light: #F5F3FF;
 
     /* Light Mode */
-    --color-background: #F8FAFC;
-    --color-surface: #FFFFFF;
-    --color-surface-hover: #F1F5F9;
+    --color-background: #F5F7FF;
+    --color-surface: #EEF2FF;
+    --color-surface-hover: #c5d2fc;
 
     /* Text */
     --color-text-primary: #0F172A;
