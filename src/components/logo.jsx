@@ -1,4 +1,3 @@
-import React from "react";
 import logo from "../images/logo2.png";
 
 function Logo({ showText = true, className = "" }) {
